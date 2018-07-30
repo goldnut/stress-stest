@@ -35,7 +35,6 @@ public class Main {
             if (countOfRequest.get()<perSec){
                 executorService.submit(new BulkRequest(URL, leackyBucket, countOfRequest));
                 countOfTask++;
-                System.out.println("Less then need ");
                 System.out.println("count of task " + countOfTask);
 
             }

@@ -1,8 +1,7 @@
 import cuncurrent.BulkRequest;
 import cuncurrent.LeackyBucket;
-import org.springframework.http.HttpMethod;
-import org.springframework.web.client.RestTemplate;
-import util.ThreadUtil;
+import cuncurrent.util.ThreadUtil;
+import fileutil.ReadProperty;
 
 import java.util.Properties;
 import java.util.concurrent.ExecutorService;

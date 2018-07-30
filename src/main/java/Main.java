@@ -1,7 +1,7 @@
 import cuncurrent.BulkRequest;
 import cuncurrent.LeackyBucket;
-import cuncurrent.util.ThreadUtil;
 import fileutil.ReadProperty;
+import cuncurrent.ThreadUtil;
 
 import java.util.Properties;
 import java.util.concurrent.ExecutorService;

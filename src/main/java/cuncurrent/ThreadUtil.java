@@ -1,4 +1,4 @@
-package cuncurrent.util;
+package cuncurrent;
 
 public class ThreadUtil {
 
